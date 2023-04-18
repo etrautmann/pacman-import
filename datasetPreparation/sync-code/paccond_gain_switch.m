@@ -1,4 +1,4 @@
-7%% PACCOND PacMan Task Conditions for gain switching task
+%% PACCOND PacMan Task Conditions for gain switching task
 % Constructs Pac-Man Task condition object from a trial table.
 %
 % SYNTAX
@@ -513,3 +513,4 @@ if ~isempty(P.Results.w)
     % sort motor units by slow ramp condition
     Task = Task.order_mu(10);
 end
+
